@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 900px;
+    height: 450px;
+    /* background-color: green; */
+    margin: 150px 150px;
+    
+}
