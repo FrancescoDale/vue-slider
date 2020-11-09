@@ -44,3 +44,11 @@ h1 {
     width: calc(100% - 70px);
     background-color: red;
 }
+
+/* immagini */
+
+.pics_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
