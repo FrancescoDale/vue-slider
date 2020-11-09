@@ -12,10 +12,16 @@ var app = new Vue ( {
 
     },
     methods : {
+
+        //fanno scorrere lo slider modificando il valore di imageIndex
+
         leftArrowClick() {
+            // uso this
+            this.imageIndex --;
             console.log('click');
         },
         rightArrowClick() {
+            this.imageIndex ++;
             console.log('click');
         },
 
