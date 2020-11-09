@@ -18,10 +18,16 @@ var app = new Vue ( {
         leftArrowClick() {
             // uso this
             this.imageIndex --;
+            if (this.imageIndex < 0) {
+                this.imageIndex = 0;
+            }
             console.log('click');
         },
         rightArrowClick() {
             this.imageIndex ++;
+            if (this.imageIndex < this.imageIndex.length) {
+                this.imageIndex = 0;
+            }
             console.log('click');
         },
 
