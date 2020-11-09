@@ -12,9 +12,35 @@
 
 }
 
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 h1 {
     text-transform: uppercase;
     font-size: 20px;
     text-align: center;
     margin-top: 50px;
+}
+
+/* posiziono le frecce */
+
+.left_arrow, .right_arrow {
+    float: left;
+    display: flex;
+    width: 35px;
+    height: 100%;
+}
+
+.left_arrow i, .right_arrow i {
+    margin: auto;
+}
+
+.pics_container {
+    float: left;
+    height: 100%;
+    width: calc(100% - 70px);
+    background-color: red;
 }
