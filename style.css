@@ -9,5 +9,12 @@
     height: 450px;
     /* background-color: green; */
     margin: 150px 150px;
-    
+
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
 }
