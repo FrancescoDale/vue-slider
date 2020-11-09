@@ -31,20 +31,13 @@ var app = new Vue ( {
             console.log('click');
         },
 
-
-
     },
 
-    // chiama rightArrowClick una volta che tutto è stato caricato
-
-    created : function() {
-        this.rightArrowClick();
-    },
+    created() {
+       setInterval( () => {
+           this.rightArrowClick();
+       }, 4000 );
+    }
 
 }
 );
-
-// // timer
-//
-// //uso la funzione setinterval per settare un timer a 4 secondi, come parametri avrà una funzione e i 4000 ms
-// setInterval(autoNext, 4000);
