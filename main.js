@@ -29,7 +29,7 @@ var app = new Vue ( {
                 this.imageIndex = 0;
             }
             console.log('click');
-        },
+        },        
 
     },
 
@@ -40,4 +40,8 @@ var app = new Vue ( {
 
 //uso la funzione setinterval per settare un timer a 4 secondi, come parametri avrà una funzione e i 4000 ms
 
-setInterval(autoNext, 4000);
+setInterval(disp, 4000);
+
+function disp (){
+    alert('hello');
+}
