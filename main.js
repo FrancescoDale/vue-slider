@@ -10,4 +10,14 @@ var app = new Vue {
         ],
 
     },
+    methods : {
+        leftArrowClick() {
+            console.log('click');
+        },
+        rightArrowClick() {
+            console.log('click');
+        },
+
+    },
+
 };
