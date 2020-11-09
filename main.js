@@ -8,6 +8,7 @@ var app = new Vue ( {
             'https://st.ilfattoquotidiano.it/wp-content/uploads/2020/04/21/roma1200-1-690x362.jpg',
             'https://www.ilfaroonline.it/photogallery_new/images/2020/03/campidoglio-121445.660x368.jpg',
         ],
+        messaggio : 'testo alternativo',
 
     },
     methods : {
